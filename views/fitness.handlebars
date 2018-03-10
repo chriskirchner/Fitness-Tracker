@@ -1,0 +1,31 @@
+<h1>Fitness Tracker</h1>
+<h3>Track Your Fit</h3>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Reps</th>
+            <th>Weight</th>
+            <th>Date</th>
+            <th>Unit</th>
+        </tr>
+    </thead>
+    <tbody id="fitness-data">
+        <tr id="add-fitness-row">
+            <form id="add-fitness">
+            <td><input type="text" name="name"></td>
+            <td><input type="number" name="reps"></td>
+            <td><input type="number" name="weight"></td>
+            <td><input type="date" name="date"></td>
+            <td>
+                <select name="lbs">
+                    <option value="1">Lbs</option>
+                    <option value="0">Kg</option>
+                </select>
+            </td>
+            <td><input type="submit" value="+"></td></form>
+        </tr>
+    </tbody>
+</table>
+
